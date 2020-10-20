@@ -1,0 +1,33 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Gnu Kart for SuperTuxKart
+Upstream-Contact: Marianne Gagnon <auria.mg@gmail.com>
+Source: https://supertuxkart.net
+License: GPL ???
+
+Files:
+ *.spm
+ Carpet_diffiuse.png
+ Carpet_normal.png
+ gnu_accessories.png
+ gnu_cloth.png
+ gnu_diffuse.png
+ gnu_Eyeball.png
+ gnu_hair_nrm.png
+ gnu_hair.png
+ gnu_horn_albed.png
+ gnu_horn_normal.png
+ gnu_normal.png
+ gnushadow.png
+Copyright: Copyright 2020 McRavenINDo
+License: public-domain
+
+Files:
+ Carpet_colormask.png
+ gnu_accessories-gloss.png
+ gnu_cloth-colormask.png
+Copyright: Copyright 2020 Typhon306
+License: public-domain
+
+Files: gnuicon.png
+Copyright: Copyright 2010 Anthony "yeKcim" Carré <yeknan.free.fr>
+License: GPL 2.0

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev 16945 -->
+<kart name              = "Gnu"
+      version           = "3"
+      model-file        = "gnu.spm"
+      icon-file         = "gnuicon.png"
+      minimap-icon-file = "gnuicon.png"
+      shadow-file       = "gnushadow.png"
+      type              = "medium"
+      groups            = "standard"
+      rgb               = "1.00 0.70 0.00" >
+  <sounds engine = "large"/>
+  <animations left = "30"
+              straight = "50"
+              right = "70"
+              backpedal-left = "89"
+              backpedal = "109"
+              backpedal-right = "129"
+              start-jump = "139"
+              end-jump = "199"
+              start-winning = "200"
+              start-winning-loop = "239"
+              end-winning = "279"
+              start-losing = "280"
+              start-losing-loop = "352"
+              end-losing = "353"
+              selection-start = "361"
+              selection-end = "524"/>
+  <speed-weighted-objects>
+    <object position="-0.000000 0.309056 0.043688"
+            rotation="3.736795 -0.000000 -0.000000"
+            scale="1.000000 1.000000 1.000000"
+            bone="root"
+            speed-factor="1.000000"
+            model="Carpet.spm"/>
+  </speed-weighted-objects>
+  <nitro-emitter>
+    <nitro-emitter-a position = "-0.308955 0.122335 -0.269535" />
+    <nitro-emitter-b position = "0.323666 0.122335 -0.269535" />
+  </nitro-emitter>
+  <headlights>
+    <object position="-0.307101 0.405814 0.539214"
+            rotation="3.736795 -0.000000 -0.000000"
+            scale="1.000000 1.000000 1.000000"
+            bone="root"
+            color="255 232 57"
+            model="lantern_1.spm"/>
+    <object position="0.303553 0.405814 0.539214"
+            rotation="3.736795 -0.000000 -0.000000"
+            scale="1.000000 1.000000 1.000000"
+            bone="root"
+            color="255 232 57"
+            model="lantern_1.spm"/>
+  </headlights>
+  <hat position="-0.000000 1.079832 -0.046176"
+       rotation="13.651212 0.000000 -0.000000"
+       scale="1.000000 1.000000 1.000000"
+       bone="Head"/>
+</kart>
